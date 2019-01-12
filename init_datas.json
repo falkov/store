@@ -1,0 +1,1160 @@
+[
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "shop",
+      "model": "category"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "shop",
+      "model": "product"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "3pdlatyjyncdcjn8tdaksymlc1o4pke1",
+   "fields": {
+      "session_data": "NWM4MjU1MWM3NjFkZWY4MDFiNWFlZGFiZDJhZWYzYWNkMjQ2YmZhMTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmYWE3NGYyN2VlNmUzM2NhYjdjMTU1M2M0YTRkNThiMzljNTZmNzJhIn0=",
+      "expire_date": "2019-01-25T14:59:01.982Z"
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 1,
+   "fields": {
+      "name": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b",
+      "parent": null,
+      "slug": "tvsets",
+      "lft": 1,
+      "rght": 6,
+      "tree_id": 2,
+      "level": 0
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 2,
+   "fields": {
+      "name": "4\u041a \u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b",
+      "parent": 1,
+      "slug": "4k_tvsets",
+      "lft": 2,
+      "rght": 3,
+      "tree_id": 2,
+      "level": 1
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 3,
+   "fields": {
+      "name": "Full HD \u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b",
+      "parent": 1,
+      "slug": "fullhd_tvsets",
+      "lft": 4,
+      "rght": 5,
+      "tree_id": 2,
+      "level": 1
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 4,
+   "fields": {
+      "name": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d\u044b",
+      "parent": null,
+      "slug": "phones",
+      "lft": 1,
+      "rght": 6,
+      "tree_id": 3,
+      "level": 0
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 5,
+   "fields": {
+      "name": "iOS",
+      "parent": 4,
+      "slug": "ios",
+      "lft": 4,
+      "rght": 5,
+      "tree_id": 3,
+      "level": 1
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 6,
+   "fields": {
+      "name": "Android",
+      "parent": 4,
+      "slug": "Android",
+      "lft": 2,
+      "rght": 3,
+      "tree_id": 3,
+      "level": 1
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 8,
+   "fields": {
+      "name": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c",
+      "parent": null,
+      "slug": "brend",
+      "lft": 1,
+      "rght": 10,
+      "tree_id": 1,
+      "level": 0
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 9,
+   "fields": {
+      "name": "Samsung",
+      "parent": 8,
+      "slug": "samsung",
+      "lft": 8,
+      "rght": 9,
+      "tree_id": 1,
+      "level": 1
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 10,
+   "fields": {
+      "name": "Apple",
+      "parent": 8,
+      "slug": "apple",
+      "lft": 2,
+      "rght": 3,
+      "tree_id": 1,
+      "level": 1
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 11,
+   "fields": {
+      "name": "LG",
+      "parent": 8,
+      "slug": "lg",
+      "lft": 6,
+      "rght": 7,
+      "tree_id": 1,
+      "level": 1
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 12,
+   "fields": {
+      "name": "Huawei",
+      "parent": 8,
+      "slug": "huawei",
+      "lft": 4,
+      "rght": 5,
+      "tree_id": 1,
+      "level": 1
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 13,
+   "fields": {
+      "name": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a\u0438",
+      "parent": null,
+      "slug": "fridge",
+      "lft": 1,
+      "rght": 6,
+      "tree_id": 4,
+      "level": 0
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 14,
+   "fields": {
+      "name": "\u0418\u043d\u0432\u0435\u0440\u0442\u043e\u0440\u043d\u044b\u0435",
+      "parent": 13,
+      "slug": "invertor",
+      "lft": 2,
+      "rght": 3,
+      "tree_id": 4,
+      "level": 1
+   }
+},
+{
+   "model": "shop.category",
+   "pk": 15,
+   "fields": {
+      "name": "\u041c\u0438\u043d\u0438",
+      "parent": 13,
+      "slug": "mini_fridge",
+      "lft": 4,
+      "rght": 5,
+      "tree_id": 4,
+      "level": 1
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 1,
+   "fields": {
+      "categoru": 2,
+      "title": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 55UK6200PLA",
+      "description": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 55UK6200PLA \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 IPS-\u043c\u0430\u0442\u0440\u0438\u0446\u044b \u0441\u0432\u0435\u0440\u0445\u0432\u044b\u0441\u043e\u043a\u043e\u0433\u043e \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u044f. \u041e\u043d\u0430 \u0447\u0451\u0442\u043a\u043e \u043f\u0435\u0440\u0435\u0434\u0430\u0451\u0442 \u043c\u0435\u043b\u044c\u0447\u0430\u0439\u0448\u0438\u0435 \u0434\u0435\u0442\u0430\u043b\u0438 \u043a\u0430\u0436\u0434\u043e\u0439 \u0441\u0446\u0435\u043d\u044b \u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0435\u0442 \u0447\u0451\u0442\u043a\u043e\u0441\u0442\u044c \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e \u043e\u0442 \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u043e\u0433\u043e \u0443\u0433\u043b\u0430 \u043e\u0431\u0437\u043e\u0440\u0430. \u041f\u0435\u0440\u0435\u0434 \u0435\u0433\u043e \u044d\u043a\u0440\u0430\u043d\u043e\u043c \u043c\u043e\u0436\u043d\u043e \u0441\u043e\u0431\u0440\u0430\u0442\u044c \u0432\u0441\u044e \u0441\u0435\u043c\u044c\u044e \u0438\u043b\u0438 \u0432\u0435\u0441\u0451\u043b\u0443\u044e \u0434\u0440\u0443\u0436\u0435\u0441\u043a\u0443\u044e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044e, \u0443\u0441\u0442\u0440\u043e\u0438\u0432 \u0443\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043a\u0438\u043d\u043e\u0441\u0435\u0430\u043d\u0441.",
+      "price": 39990,
+      "slug": "LG_55UK6200PLA",
+      "availability": true,
+      "quantity": 15
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 2,
+   "fields": {
+      "categoru": 2,
+      "title": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 Samsung UE55NU7470U",
+      "description": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 Samsung UE-NU7470U \u0434\u0435\u043b\u0430\u0435\u0442 \u0444\u0438\u043b\u044c\u043c\u044b \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0440\u0435\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u043d\u044b\u043c\u0438. \u0421 \u043d\u0438\u043c \u0437\u0440\u0438\u0442\u0435\u043b\u0438 \u0431\u0443\u0434\u0443\u0442 \u0441\u043b\u0435\u0434\u0438\u0442\u044c \u0437\u0430 \u043a\u0430\u0436\u0434\u044b\u043c \u043f\u043e\u0432\u043e\u0440\u043e\u0442\u043e\u043c \u0441\u044e\u0436\u0435\u0442\u0430, \u0437\u0430\u0442\u0430\u0438\u0432 \u0434\u044b\u0445\u0430\u043d\u0438\u0435. \u0414\u0435\u043b\u043e \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0432 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0438 4K \u2013 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f Dynamic Crystal Colour \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u044c \u044f\u0440\u043a\u0438\u0435 \u043d\u0430\u0441\u044b\u0449\u0435\u043d\u043d\u044b\u0435 \u0446\u0432\u0435\u0442\u0430 \u0431\u0435\u0437 \u043c\u0430\u043b\u0435\u0439\u0448\u0435\u0433\u043e \u043d\u0430\u043c\u0451\u043a\u0430 \u043d\u0430 \u00ab\u043a\u0438\u0441\u043b\u043e\u0442\u043d\u043e\u0441\u0442\u044c\u00bb.",
+      "price": 59990,
+      "slug": "samsung_UE55NU7470U",
+      "availability": true,
+      "quantity": 10
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 3,
+   "fields": {
+      "categoru": 2,
+      "title": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 43UK6200PLA",
+      "description": "\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 LED-\u044d\u043a\u0440\u0430\u043d\u0430 \u0442\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u0430 LG 43UK6200PLA \u2013 3840\u04452160 \u043f\u0438\u043a\u0441\u0435\u043b\u0435\u0439. \u041e\u043d \u0441\u043f\u043e\u0441\u043e\u0431\u0435\u043d \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u044c \u0444\u0438\u043b\u044c\u043c\u044b \u0432 \u0447\u0440\u0435\u0437\u0432\u044b\u0447\u0430\u0439\u043d\u043e \u0432\u044b\u0441\u043e\u043a\u043e\u043c \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0438 \u0442\u0440\u0430\u043d\u0441\u043b\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0446\u0438\u0444\u0440\u043e\u0432\u043e\u0439 \u0442\u0435\u043b\u0435\u0441\u0438\u0433\u043d\u0430\u043b \u0432 \u0444\u043e\u0440\u043c\u0430\u0442\u0435 Ultra HD. \u042d\u0442\u0430 \u043c\u043e\u0434\u0435\u043b\u044c \u0437\u0430\u0439\u043c\u0451\u0442 \u0434\u043e\u0441\u0442\u043e\u0439\u043d\u043e\u0435 \u043c\u0435\u0441\u0442\u043e \u0432 \u0433\u043e\u0441\u0442\u0438\u043d\u043e\u0439 \u0438 \u043c\u043e\u0436\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0432 \u0441\u043e\u0441\u0442\u0430\u0432\u0435 \u0434\u043e\u043c\u0430\u0448\u043d\u0435\u0433\u043e \u043a\u0438\u043d\u043e\u0442\u0435\u0430\u0442\u0440\u0430. \u0415\u0451 \u043c\u043e\u0436\u043d\u043e \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u043d\u0430 \u043f\u043e\u0441\u0442\u0430\u0432\u043a\u0443 \u0438\u043b\u0438 \u0440\u0430\u0437\u043c\u0435\u0441\u0442\u0438\u0442\u044c \u043d\u0430 \u0441\u0442\u0435\u043d\u0435 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u043e\u0433\u043e \u043a\u0440\u0435\u043f\u043b\u0435\u043d\u0438\u044f VESA (\u043f\u0440\u0438\u043e\u0431\u0440\u0435\u0442\u0430\u0435\u0442\u0441\u044f \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e).",
+      "price": 31990,
+      "slug": "lg_43UK6200PLA",
+      "availability": true,
+      "quantity": 12
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 4,
+   "fields": {
+      "categoru": 3,
+      "title": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 Samsung UE49NU7300U",
+      "description": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 Samsung UE-NU7300U \u043f\u043e\u043b\u0443\u0447\u0438\u043b \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0438\u0437\u043e\u0433\u043d\u0443\u0442\u044b\u0439 \u044d\u043a\u0440\u0430\u043d, \u043f\u0440\u0438\u0442\u044f\u0433\u0438\u0432\u0430\u044e\u0449\u0438\u0439 \u0432\u0437\u0433\u043b\u044f\u0434\u044b \u0437\u0440\u0438\u0442\u0435\u043b\u0435\u0439 \u0438 \u043f\u043e\u043c\u043e\u0433\u0430\u044e\u0449\u0438\u0439 \u0441\u043e\u0441\u0440\u0435\u0434\u043e\u0442\u043e\u0447\u0438\u0442\u044c \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0438. \u0421 \u043d\u0438\u043c \u0444\u0438\u043b\u044c\u043c\u044b \u0438 \u0432\u0438\u0434\u0435\u043e\u0438\u0433\u0440\u044b \u0431\u0443\u0434\u0442\u043e \u043e\u0436\u0438\u0432\u0430\u044e\u0442. \u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f PurColour \u0441\u0433\u043b\u0430\u0436\u0438\u0432\u0430\u0435\u0442 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u044b \u043c\u0435\u0436\u0434\u0443 \u043e\u0442\u0442\u0435\u043d\u043a\u0430\u043c\u0438 \u0438 \u043f\u043e\u0432\u044b\u0448\u0430\u0435\u0442 \u043d\u0430\u0441\u044b\u0449\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u043a\u0440\u0430\u0441\u043e\u043a, \u0430 \u0444\u0443\u043d\u043a\u0446\u0438\u044f HDR \u0443\u043b\u0443\u0447\u0448\u0430\u0435\u0442 \u0434\u0435\u0442\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044e \u043a\u043e\u043d\u0442\u0440\u0430\u0441\u0442\u043d\u044b\u0445 \u0441\u0446\u0435\u043d \u0441\u043e \u0441\u043b\u043e\u0436\u043d\u043e\u0439 \u0438\u0433\u0440\u043e\u0439 \u0441\u0432\u0435\u0442\u0430 \u0438 \u0442\u0435\u043d\u0438.",
+      "price": 39990,
+      "slug": "Samsung_UE49NU7300U",
+      "availability": true,
+      "quantity": 18
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 5,
+   "fields": {
+      "categoru": 3,
+      "title": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 43LJ510V",
+      "description": "\u0416\u041a-\u0442\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 43LJ510V \u0441\u0442\u0430\u043d\u0435\u0442  \u0443\u043a\u0440\u0430\u0448\u0435\u043d\u0438\u0435\u043c \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439 \u0433\u043e\u0441\u0442\u0438\u043d\u043e\u0439 \u0438\u043b\u0438 \u043a\u0443\u0445\u043d\u0438 \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0441\u0432\u043e\u0435\u043c\u0443 \u043b\u0430\u043a\u043e\u043d\u0438\u0447\u043d\u043e\u043c\u0443 \u0434\u0438\u0437\u0430\u0439\u043d\u0443. \u041e\u043d  \u0441\u0442\u0430\u043d\u0435\u0442 \u0446\u0435\u043d\u0442\u0440\u043e\u043c \u043f\u0440\u0438\u0442\u044f\u0436\u0435\u043d\u0438\u044f \u0432\u0441\u0435\u0439 \u0441\u0435\u043c\u044c\u0438, \u0438 \u0432\u044b \u0441\u043c\u043e\u0436\u0435\u0442\u0435 \u0441 \u0443\u0434\u043e\u0432\u043e\u043b\u044c\u0441\u0442\u0432\u0438\u0435\u043c \u0441\u043a\u0440\u0430\u0441\u0438\u0442\u044c \u0432\u0435\u0447\u0435\u0440 \u0437\u0430 \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u043e\u043c \u043f\u0435\u0440\u0435\u0434\u0430\u0447, \u0441\u0435\u0440\u0438\u0430\u043b\u043e\u0432 \u0438 \u043b\u044e\u0431\u0438\u043c\u044b\u0445 \u043c\u0443\u043b\u044c\u0442\u0438\u043a\u043e\u0432.",
+      "price": 22990,
+      "slug": "LG_43LJ510V",
+      "availability": true,
+      "quantity": 15
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 6,
+   "fields": {
+      "categoru": 6,
+      "title": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Samsung Galaxy Note 9 128Gb",
+      "description": "Galaxy Note9 \u0441 \u043d\u043e\u0432\u044b\u043c S Pen \u043f\u043e\u043c\u043e\u0433\u0443\u0442 \u0432\u0430\u043c \u0434\u043e\u0431\u0438\u0432\u0430\u0442\u044c\u0441\u044f \u0431\u043e\u043b\u044c\u0448\u0435\u0433\u043e. \u041e\u0446\u0435\u043d\u0438\u0442\u0435 \u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e \u0432\u044b\u0441\u043e\u043a\u0443\u044e \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u044b \u0432 \u043c\u0443\u043b\u044c\u0442\u0438\u0437\u0430\u0434\u0430\u0447\u043d\u043e\u043c \u0440\u0435\u0436\u0438\u043c\u0435, \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435, \u043f\u043b\u0430\u0432\u043d\u044b\u0439 \u0438\u0433\u0440\u043e\u0432\u043e\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441, \u0447\u0451\u0442\u043a\u0438\u0435 \u0444\u043e\u0442\u043e \u043f\u0440\u0438 \u043b\u044e\u0431\u043e\u043c \u043e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u0438, \u043a\u0440\u0438\u0441\u0442\u0430\u043b\u044c\u043d\u043e \u0447\u0438\u0441\u0442\u044b\u0439 \u0437\u0432\u0443\u043a \u0438 \u043c\u043e\u0449\u043d\u044b\u0439 \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440 \u0451\u043c\u043a\u043e\u0441\u0442\u044c\u044e 4000 \u043c\u0410\u0447, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043f\u043e\u0437\u0432\u043e\u043b\u0438\u0442 \u0432\u0430\u043c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u043e\u043c \u0446\u0435\u043b\u044b\u0439 \u0434\u0435\u043d\u044c \u0431\u0435\u0437 \u043f\u043e\u0434\u0437\u0430\u0440\u044f\u0434\u043a\u0438.",
+      "price": 71490,
+      "slug": "Samsung_Note9",
+      "availability": true,
+      "quantity": 14
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 7,
+   "fields": {
+      "categoru": 6,
+      "title": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d LG G6a Gold",
+      "description": "\u041f\u0435\u0440\u0432\u043e\u0435, \u0447\u0442\u043e \u043f\u0440\u0438\u0432\u043b\u0435\u043a\u0430\u0435\u0442 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u0432 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0435 LG G6a, \u2014 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u044d\u043a\u0440\u0430\u043d \u0441 \u0442\u043e\u043d\u043a\u0438\u043c\u0438 \u0440\u0430\u043c\u043a\u0430\u043c\u0438. 5,7-\u0434\u044e\u0439\u043c\u043e\u0432\u044b\u0439 \u0434\u0438\u0441\u043f\u043b\u0435\u0439 Full Vision \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c Quad HD \u0438 \u0441\u043e\u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435\u043c \u0441\u0442\u043e\u0440\u043e\u043d 18:9 \u0441\u043f\u043e\u0441\u043e\u0431\u0435\u043d \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0432\u0430\u0448\u0435 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043e \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435 \u0432\u0438\u0434\u0435\u043e, \u0432\u0435\u0431-\u0441\u0451\u0440\u0444\u0438\u043d\u0433\u0435, \u0438\u0433\u0440\u0430\u0445 \u043d\u0430 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435. \u041d\u043e \u044d\u0442\u0438\u043c \u0434\u043e\u0441\u0442\u043e\u0438\u043d\u0441\u0442\u0432\u0430 \u0430\u043f\u043f\u0430\u0440\u0430\u0442\u0430 \u043d\u0435 \u0438\u0441\u0447\u0435\u0440\u043f\u044b\u0432\u0430\u044e\u0442\u0441\u044f, \u0438\u0445 \u0441\u043f\u0438\u0441\u043e\u043a \u0442\u043e\u043b\u044c\u043a\u043e \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442\u0441\u044f.",
+      "price": 30790,
+      "slug": "LG_G6a_Gold",
+      "availability": true,
+      "quantity": 28
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 8,
+   "fields": {
+      "categoru": 5,
+      "title": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Apple iPhone XS Max 512GB Silver",
+      "description": "\u0414\u0438\u0441\u043f\u043b\u0435\u0439 Super Retina 6,5 \u0434\u044e\u0439\u043c\u0430 \u2013 \u0441\u0430\u043c\u044b\u0439 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0432 \u0438\u0441\u0442\u043e\u0440\u0438\u0438 iPhone. \u0423\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0439 Face ID. \u0421\u0430\u043c\u044b\u0439 \u043c\u043e\u0449\u043d\u044b\u0439 \u0438 \u0443\u043c\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 iPhone. \u0418 \u043f\u043e\u0442\u0440\u044f\u0441\u0430\u044e\u0449\u0430\u044f \u0434\u0432\u043e\u0439\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430. \u0412 iPhone Xs Max \u0432\u043e\u043f\u043b\u043e\u0449\u0435\u043d\u043e \u0432\u0441\u0451, \u0447\u0442\u043e \u0432\u044b \u043b\u044e\u0431\u0438\u0442\u0435 \u0432 iPhone.",
+      "price": 122190,
+      "slug": "iPhone_XSMax_512GB_Silver",
+      "availability": true,
+      "quantity": 3
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 9,
+   "fields": {
+      "categoru": 5,
+      "title": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Apple iPhone 8 Plus 64GB Gold (MQ8N2RU/A)",
+      "description": "\u0414\u043b\u044f iPhone 8 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Apple \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u043b\u0430 \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u043e \u043d\u043e\u0432\u044b\u0439 \u0434\u0438\u0437\u0430\u0439\u043d, \u0432 \u043a\u043e\u0442\u043e\u0440\u043e\u043c \u043f\u0435\u0440\u0435\u0434\u043d\u044f\u044f \u0438 \u0437\u0430\u0434\u043d\u044f\u044f \u043f\u0430\u043d\u0435\u043b\u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u044b \u0438\u0437 \u0441\u0442\u0435\u043a\u043b\u0430. \u0421\u0430\u043c\u0430\u044f \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430 \u0443\u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u0430. \u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d \u0441\u0430\u043c\u044b\u0439 \u0443\u043c\u043d\u044b\u0439 \u0438 \u043c\u043e\u0449\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440, \u043a\u043e\u0433\u0434\u0430-\u043b\u0438\u0431\u043e \u0441\u043e\u0437\u0434\u0430\u043d\u043d\u044b\u0439 \u0434\u043b\u044f iPhone. \u0411\u0435\u0437 \u043f\u0440\u043e\u0432\u043e\u0434\u043e\u0432 \u043f\u0440\u043e\u0446\u0435\u0441\u0441 \u0437\u0430\u0440\u044f\u0434\u043a\u0438 \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0441\u044f \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u0430\u0440\u043d\u044b\u043c. \u0410 \u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u0430\u044f \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0435\u0442 \u043d\u0435\u0432\u0438\u0434\u0430\u043d\u043d\u044b\u0435 \u0434\u043e \u0441\u0438\u0445 \u043f\u043e\u0440 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438.",
+      "price": 55990,
+      "slug": "iPhone_8Plus_64GB_Gold",
+      "availability": true,
+      "quantity": 7
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 10,
+   "fields": {
+      "categoru": 5,
+      "title": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Apple iPhone 5S 32Gb",
+      "description": "\u041f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 A7 \u0441 64-\u0431\u0438\u0442\u043d\u043e\u0439 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043e\u0439. \u0414\u0430\u0442\u0447\u0438\u043a \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u043f\u043e \u043e\u0442\u043f\u0435\u0447\u0430\u0442\u043a\u0443 \u043f\u0430\u043b\u044c\u0446\u0430. \u0423\u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0441\u0442\u0430\u043b\u0430 \u0435\u0449\u0451 \u0431\u044b\u0441\u0442\u0440\u0435\u0435. \u041e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430, \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u043d\u0430\u044f \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u043e \u0434\u043b\u044f 64-\u0431\u0438\u0442\u043d\u043e\u0439 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b.",
+      "price": 20155,
+      "slug": "iPhone_5S_32Gb",
+      "availability": true,
+      "quantity": 10
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 11,
+   "fields": {
+      "categoru": 6,
+      "title": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d LG G6a Gold (H870S)",
+      "description": "\u041f\u0435\u0440\u0432\u043e\u0435, \u0447\u0442\u043e \u043f\u0440\u0438\u0432\u043b\u0435\u043a\u0430\u0435\u0442 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u0432 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0435 LG G6a, \u2014 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u044d\u043a\u0440\u0430\u043d \u0441 \u0442\u043e\u043d\u043a\u0438\u043c\u0438 \u0440\u0430\u043c\u043a\u0430\u043c\u0438. 5,7-\u0434\u044e\u0439\u043c\u043e\u0432\u044b\u0439 \u0434\u0438\u0441\u043f\u043b\u0435\u0439 Full Vision \u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c Quad HD \u0438 \u0441\u043e\u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0435\u043c \u0441\u0442\u043e\u0440\u043e\u043d 18:9 \u0441\u043f\u043e\u0441\u043e\u0431\u0435\u043d \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0432\u0430\u0448\u0435 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043e \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0435 \u0432\u0438\u0434\u0435\u043e, \u0432\u0435\u0431-\u0441\u0451\u0440\u0444\u0438\u043d\u0433\u0435, \u0438\u0433\u0440\u0430\u0445 \u043d\u0430 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435. \u041d\u043e \u044d\u0442\u0438\u043c \u0434\u043e\u0441\u0442\u043e\u0438\u043d\u0441\u0442\u0432\u0430 \u0430\u043f\u043f\u0430\u0440\u0430\u0442\u0430 \u043d\u0435 \u0438\u0441\u0447\u0435\u0440\u043f\u044b\u0432\u0430\u044e\u0442\u0441\u044f, \u0438\u0445 \u0441\u043f\u0438\u0441\u043e\u043a \u0442\u043e\u043b\u044c\u043a\u043e \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442\u0441\u044f.",
+      "price": 30790,
+      "slug": "LG_G6a_Gold",
+      "availability": true,
+      "quantity": 12
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 12,
+   "fields": {
+      "categoru": 6,
+      "title": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d LG G3 S White (D724)",
+      "description": "\u041a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u044b\u0439 \u043a\u043e\u0440\u043f\u0443\u0441 LG G3S \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0435\u0442 \u0432\u0441\u0435 \u0447\u0435\u0440\u0442\u044b \u043f\u0440\u0435\u043c\u0438\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0434\u0438\u0437\u0430\u0439\u043d\u0430 \u0441\u0435\u0440\u0438\u0438 G. \u041e\u0446\u0435\u043d\u0438\u0442\u0435 \u043f\u0440\u0438\u0442\u044f\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u0438 \u043a\u043e\u043c\u0444\u043e\u0440\u0442 \u043e\u0431\u043b\u0435\u0433\u0447\u0435\u043d\u043d\u043e\u0433\u043e \u043a\u043e\u0440\u043f\u0443\u0441\u0430 \u0441 \u0442\u0435\u043a\u0441\u0442\u0443\u0440\u043e\u0439 \u043f\u043e\u0434 \u043c\u0435\u0442\u0430\u043b\u043b. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0441\u043a\u0440\u0443\u0433\u043b\u0435\u043d\u043d\u043e\u0439 \u0444\u043e\u0440\u043c\u0435 \u0437\u0430\u0434\u043d\u0435\u0439 \u043f\u0430\u043d\u0435\u043b\u0438, \u0438\u043d\u0436\u0435\u043d\u0435\u0440\u0430\u043c LG \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0442\u043e\u043d\u043a\u0438\u0439 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d, \u0447\u0442\u043e \u0432 \u0441\u043e\u0447\u0435\u0442\u0430\u043d\u0438\u0438 \u0441 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u0439 \u0444\u0438\u0440\u043c\u0435\u043d\u043d\u043e\u0439 \u043a\u043d\u043e\u043f\u043a\u043e\u0439 \u043d\u0430 \u043a\u0440\u044b\u0448\u043a\u0435 \u0434\u0435\u043b\u0430\u0435\u0442 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u044f\u043c\u0438 \u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e \u0443\u0434\u043e\u0431\u043d\u044b\u043c, \u0434\u0430\u0436\u0435 \u043e\u0434\u043d\u043e\u0439 \u0440\u0443\u043a\u043e\u0439.",
+      "price": 9990,
+      "slug": "LG_G3_White",
+      "availability": true,
+      "quantity": 12
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 13,
+   "fields": {
+      "categoru": 14,
+      "title": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a LG GA-M429SQRZ",
+      "description": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a \u0441 \u043d\u0438\u0436\u043d\u0435\u0439 \u043c\u043e\u0440\u043e\u0437\u0438\u043b\u044c\u043d\u043e\u0439 \u043a\u0430\u043c\u0435\u0440\u043e\u0439 LG GA-M429SQRZ \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u0441\u0430\u043c\u044b\u043c \u0432\u044b\u0441\u043e\u043a\u0438\u043c \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f\u043c \u043f\u043e\u0442\u0440\u0435\u0431\u0438\u0442\u0435\u043b\u0435\u0439 \u0432 \u043f\u043b\u0430\u043d\u0435 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0438 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u044d\u043d\u0435\u0440\u0433\u0438\u0438, \u043f\u0440\u043e\u0447\u043d\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f \u0441\u0432\u0435\u0436\u0435\u0441\u0442\u0438 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432. \u0415\u0433\u043e \u043a\u043b\u0430\u0441\u0441 \u044d\u043d\u0435\u0440\u0433\u043e\u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438 \u2013 \u0410++, \u043a \u0442\u043e\u043c\u0443 \u0436\u0435 \u0432\u044b \u0441\u043c\u043e\u0436\u0435\u0442\u0435 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u0443 \u044d\u0442\u043e\u0433\u043e \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0441 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0430 \u2013 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u043e\u043f\u043e\u0432\u0435\u0449\u0435\u043d\u0438\u044f \u043e \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u0438 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u044b, \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0440\u0435\u0436\u0438\u043c \u0443\u0441\u043a\u043e\u0440\u0435\u043d\u043d\u043e\u0439 \u0437\u0430\u043c\u043e\u0440\u043e\u0437\u043a\u0438 \u0438 \u043c\u043d\u043e\u0433\u043e\u0435 \u0434\u0440\u0443\u0433\u043e\u0435.",
+      "price": 36990,
+      "slug": "LG_GA-M429SQRZ",
+      "availability": true,
+      "quantity": 14
+   }
+},
+{
+   "model": "shop.product",
+   "pk": 14,
+   "fields": {
+      "categoru": 14,
+      "title": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a Samsung RB37J5261SA",
+      "description": "\u0414\u043b\u044f \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0430\u043d\u0438\u044f \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u043e\u0439 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u044b \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f Metal Cooling. \u0421\u0442\u0430\u043b\u044c\u043d\u0430\u044f \u043f\u043b\u0430\u0441\u0442\u0438\u043d\u0430, \u043d\u0430\u0445\u043e\u0434\u044f\u0449\u0430\u044f\u0441\u044f \u043d\u0430 \u0437\u0430\u0434\u043d\u0435\u0439 \u0441\u0442\u0435\u043d\u043a\u0435 \u043a\u0430\u043c\u0435\u0440\u044b, \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0442\u044c \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c \u043d\u0430 \u043e\u0434\u043d\u043e\u043c \u0443\u0440\u043e\u0432\u043d\u0435 \u0434\u0430\u0436\u0435 \u043f\u0440\u0438 \u0447\u0430\u0441\u0442\u043e\u043c \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u043d\u0438\u0438 \u0434\u0432\u0435\u0440\u0438. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u043d\u0430\u043b\u0438\u0447\u0438\u044e \u0432\u0435\u043d\u0442\u0438\u043b\u044f\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u043e\u0442\u0432\u0435\u0440\u0441\u0442\u0438\u0439 \u043d\u0430\u0434 \u043a\u0430\u0436\u0434\u043e\u0439 \u043f\u043e\u043b\u043a\u043e\u0439 \u0432\u043e\u0437\u0434\u0443\u0445 \u0440\u0430\u0432\u043d\u043e\u043c\u0435\u0440\u043d\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f \u043f\u043e \u0432\u0441\u0435\u043c \u043e\u0442\u0434\u0435\u043b\u0435\u043d\u0438\u044f\u043c, \u0447\u0442\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0434\u043e\u043b\u044c\u0448\u0435 \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0442\u044c \u0441\u0432\u0435\u0436\u0435\u0441\u0442\u044c \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432. \u0414\u043b\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0440\u044b\u0431\u044b \u0438 \u043c\u044f\u0441\u0430 \u043f\u0440\u0435\u0434\u0443\u0441\u043c\u043e\u0442\u0440\u0435\u043d \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u0442\u0441\u0435\u043a \u0441 \u043e\u0441\u043e\u0431\u044b\u043c \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u043d\u044b\u043c \u0440\u0435\u0436\u0438\u043c\u043e\u043c.",
+      "price": 51990,
+      "slug": "Samsung_RB37J5261SA",
+      "availability": true,
+      "quantity": 17
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add category",
+      "content_type": 7,
+      "codename": "add_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change category",
+      "content_type": 7,
+      "codename": "change_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete category",
+      "content_type": 7,
+      "codename": "delete_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can view category",
+      "content_type": 7,
+      "codename": "view_category"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can add \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 8,
+      "codename": "add_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can change \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 8,
+      "codename": "change_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can delete \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 8,
+      "codename": "delete_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can view \u0422\u043e\u0432\u0430\u0440",
+      "content_type": 8,
+      "codename": "view_product"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$120000$ZhOQb9IdY3Zg$LhBfbUISShsjOd6L/B+hZrdbOmidUwAA11b4EAI3VSA=",
+      "last_login": "2019-01-11T14:59:01.978Z",
+      "is_superuser": true,
+      "username": "falkov",
+      "first_name": "",
+      "last_name": "",
+      "email": "falkov@mail.ru",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2019-01-11T14:54:29.167Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2019-01-12T05:02:36.994Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2019-01-12T05:03:49.933Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "4\u041a \u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2019-01-12T05:04:34.294Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Full HD \u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2019-01-12T05:04:58.150Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440\u044b",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"slug\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2019-01-12T05:06:14.552Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "\u0422\u0435\u043b\u0435\u0444\u043e\u043d\u044b",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2019-01-12T05:07:17.875Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "iOS",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2019-01-12T05:07:48.540Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Android",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2019-01-12T05:09:14.601Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Brend",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 9,
+   "fields": {
+      "action_time": "2019-01-12T05:13:35.409Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Brendnn",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 10,
+   "fields": {
+      "action_time": "2019-01-12T05:14:07.935Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "None",
+      "object_repr": "Brend",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 11,
+   "fields": {
+      "action_time": "2019-01-12T05:14:41.462Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 12,
+   "fields": {
+      "action_time": "2019-01-12T05:15:30.277Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Samsung",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 13,
+   "fields": {
+      "action_time": "2019-01-12T05:15:48.421Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Apple",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 14,
+   "fields": {
+      "action_time": "2019-01-12T05:15:59.942Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "LG",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 15,
+   "fields": {
+      "action_time": "2019-01-12T05:17:46.958Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Huawei",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 16,
+   "fields": {
+      "action_time": "2019-01-12T05:21:56.778Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 55UK6200PLA",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 17,
+   "fields": {
+      "action_time": "2019-01-12T05:24:09.249Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 Samsung UE55NU7470U",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 18,
+   "fields": {
+      "action_time": "2019-01-12T05:26:02.686Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 43UK6200PLA",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 19,
+   "fields": {
+      "action_time": "2019-01-12T05:28:43.696Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 Samsung UE49NU7300U",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 20,
+   "fields": {
+      "action_time": "2019-01-12T05:29:56.518Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "\u0422\u0435\u043b\u0435\u0432\u0438\u0437\u043e\u0440 LG 43LJ510V",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 21,
+   "fields": {
+      "action_time": "2019-01-12T05:31:51.854Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Samsung Galaxy Note 9 128Gb",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 22,
+   "fields": {
+      "action_time": "2019-01-12T05:33:54.534Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d LG G6a Gold",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 23,
+   "fields": {
+      "action_time": "2019-01-12T05:35:36.928Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Apple iPhone XS Max 512GB Silver",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 24,
+   "fields": {
+      "action_time": "2019-01-12T05:37:12.294Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Apple iPhone 8 Plus 64GB Gold (MQ8N2RU/A)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 25,
+   "fields": {
+      "action_time": "2019-01-12T05:40:09.563Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Apple iPhone 5S 32Gb",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 26,
+   "fields": {
+      "action_time": "2019-01-12T05:43:16.780Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d LG G6a Gold (H870S)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 27,
+   "fields": {
+      "action_time": "2019-01-12T05:44:55.951Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d LG G3 S White (D724)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 28,
+   "fields": {
+      "action_time": "2019-01-12T05:49:14.924Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a\u0438",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 29,
+   "fields": {
+      "action_time": "2019-01-12T05:50:46.808Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": "\u0418\u043d\u0432\u0435\u0440\u0442\u043e\u0440\u043d\u044b\u0435",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 30,
+   "fields": {
+      "action_time": "2019-01-12T05:52:45.087Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "15",
+      "object_repr": "\u041c\u0438\u043d\u0438",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 31,
+   "fields": {
+      "action_time": "2019-01-12T05:54:41.625Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a LG GA-M429SQRZ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 32,
+   "fields": {
+      "action_time": "2019-01-12T05:56:01.094Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0438\u043a Samsung RB37J5261SA",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+}
+]
